@@ -1,0 +1,64 @@
+body{
+    background: orange;
+    color: yellow;
+}
+
+article{
+    width: 30%;
+    text-align: center;
+    text-shadow: red 0 -2px;
+    font-size: 25px;
+    background: #88f;
+    margin: 10px;
+}
+
+aside{
+    text-align: right;
+    font-size: 30px;
+    text-shadow: 0 -2 black;
+}
+
+footer{
+    text-align: center;
+    margin-top: 160px;
+    color: black;
+    text-shadow: black 1px 2px;
+    font-size: 25px;
+    border: 17px inset rgb(255, 0, 255);
+    margin-bottom: 0px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 15px black;
+    margin-top: 15px;
+}
+
+h2{
+    text-shadow: 1px 1px 2px black, 0 0 0 0.1em blue, 0 0 0.2em blue;
+}
+
+nav{
+    text-align: right;
+}
+
+.lista_menu{
+    list-style: none;
+    display: inline-flex;
+    text-shadow: 5px 3px 5px blue;
+}
+
+.item_menu{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-rendering: white;
+}
+
+#menu ul li a:hover {
+    background-color: #D6D6D6;
+    color: #6D6D6D;
+    border-bottom: 3px solid #EA0000;
+}

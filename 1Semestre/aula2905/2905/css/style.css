@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.banner{
+    background: #22999999;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.titulo_banner{
+    color: #553399;
+}
+
+body{
+    color: red;
+    background: #553399;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.esporte{
+    color: white;
+    background: #9999CC;
+    text-align: left;
+    width: 30%;
+    height: 180px;
+}
+
+.titulo_menu{
+    text-align: center;
+}
+
+li{
+    color: white;
+    margin-top: 10px;
+}
+
+a{
+    color: yellow;
+}
+
+#tipos_esportes{
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 300px;
+    height: 100px;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+#rodape{
+    color: black;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.linkpagina{
+    color: black;
+    
+}
+
+.imgIcon{
+    width: 10%;
+   align-self: center;
+}
