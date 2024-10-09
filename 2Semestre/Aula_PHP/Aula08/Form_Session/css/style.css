@@ -1,0 +1,12 @@
+.card{
+    background: orangered;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+input{
+    border-radius: 20px;
+    border: 1px SOLID #000000;
+}
