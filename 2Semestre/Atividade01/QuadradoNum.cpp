@@ -24,7 +24,6 @@ int main(){
 	}else{
 		printf("Digite um número POSITIVO: ");
 	}
-	
 	return 0;
 }
 
