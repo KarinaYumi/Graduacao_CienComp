@@ -1,3 +1,6 @@
+//Implemente um algoritmo na linguagem C que encontre o quadrado de
+//um número positivo
+
 #include <stdio.h>
 
 int quadrado(int n){
