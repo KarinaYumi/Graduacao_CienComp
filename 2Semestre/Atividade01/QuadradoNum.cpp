@@ -20,7 +20,6 @@ int main(){
 	if(n > 0){
 		int resultado = quadrado(n);
 		printf("O quadrado de %d é: %d\n", n, resultado);
-		
 	}else{
 		printf("Digite um número POSITIVO: ");
 	}
