@@ -6,7 +6,9 @@ SESSION (variável persistente) - $_SESSION['nome']
                                Tempo de inatividade
                                A qualquer momento o dev pode encerrar a sessão (logout/log off) -> session_destroy();
 
-    Inicialidar sessões- Necessário iniciar com a função session_start();
+    Inicializar sessões e falar pro código que sessões serão usadas - Necessário iniciar com a função session_start();
+
+    A chave/ID da session fica no back e  no front
 
 */
     session_start();
