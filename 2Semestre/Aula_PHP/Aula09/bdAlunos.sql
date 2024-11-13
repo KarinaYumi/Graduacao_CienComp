@@ -1,21 +1,27 @@
--- SHOW DATABASES;
+-- CREATE DATABASE bdAlunos;
 
--- CREATE DATABASE bdAula09;
--- USE bdAula09;
+USE bdALunos;
 
 CREATE TABLE tbAlunos(
-	RAAluno INT NOT NULL auto_increment PRIMARY KEY,
-    nomeAluno VARCHAR(150) NOT NULL,
-    usuarioAluno VARCHAR(100) NOT NULL,
-    senhAluno VARCHAR(100) NOT NULL,
-    emailAluno varchar(200) ,
-    dataNascimentoAluno date
+            RAAluno INT NOT NULL auto_increment PRIMARY KEY,
+            nomeAluno VARCHAR(150) NOT NULL,
+            usuarioAluno VARCHAR(100) NOT NULL,
+            senhaAluno VARCHAR(100) NOT NULL,
+            emailAluno varchar(200) ,
+            dataNascimentoAluno DATE
 );
 
-INSERT INTO tbAlunos VALUES(null, 'Karina Yumi', 'NinaYumi', 'Senha123', 'yumi@teste.com', '2006-01-03');
+describe tbAlunos;
 
-INSERT INTO tbAlunos VALUES(null, 'Nina', 'Kaka', 'Senha123', 'Nina@teste.com', '2007-10-21');
+INSERT INTO tbAlunos VALUES(null, 'Enzo Gamberini', 'EnzoGambs', 'Senha123', 'gamberini@teste.com', '2004-02-15');
+INSERT INTO tbAlunos VALUES(null, 'Joice Ferreira', 'JoiceFe', 'Senha123', 'joferreira@teste.com', '1982-06-27');
+INSERT INTO tbAlunos VALUES(null, 'Kamila Keiko', 'KamiKeiko', 'Senha123', 'keiko@teste.com', '2000-10-05');
 
-SELECT*FROM tbAlunos;
+INSERT INTO tbAlunos(nomeAluno, usuarioAluno, senhaAluno, emailAluno) 
+		VALUES('Luana', 'LuanaLinda', 'Senha123', 'luana@teste.com'),
+			  ('Mikaela', 'Mika', 'Senha123', 'mika@teste.com'),
+              ('Lica', 'Lili', 'Senha123', 'lica@teste.com');
 
--- DESCRIBE tbAlunos;
+SELECT * FROM tbAlunos;
+
+SELECT nomeAluno FROM tbAlunos where usuarioAluno = 'Lili';
