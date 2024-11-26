@@ -54,7 +54,21 @@ echo "</td>";
 
 echo "<td>". str_repeat("*",strlen($reg_consulta["senha"]) ) . "</td>";
 echo "<td>". $reg_consulta["email"] . "</td>";
-echo "</tr>";
+echo "<td>
+						<a href='inserir_form.php' target='_self'>
+							Incluir Usuário
+						</a>
+						<br/>
+						<a href='alterar_form.php?id_usuario="
+						. $reg_consulta["id"] . "' target='_self'>
+							Alterar Usuário
+						</a>
+						<br>
+						<a href='apagar_proc.php?id_usuario="
+						. $reg_consulta["id"] . "' target='_self'>
+							Excluir Usuário
+						</a>
+						</td>";
 }									
 				
 		
