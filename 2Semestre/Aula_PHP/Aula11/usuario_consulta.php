@@ -60,12 +60,12 @@ echo "<td>
 						</a>
 						<br/>
 						<a href='alterar_form.php?id_usuario="
-						. $reg_consulta["id"] . "' target='_self'>
+						. $reg_consulta["ra"] . "' target='_self'>
 							Alterar Usuário
 						</a>
 						<br>
 						<a href='apagar_proc.php?id_usuario="
-						. $reg_consulta["id"] . "' target='_self'>
+						. $reg_consulta["ra"] . "' target='_self'>
 							Excluir Usuário
 						</a>
 						</td>";
