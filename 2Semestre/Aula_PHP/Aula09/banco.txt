@@ -1,7 +1,7 @@
 Banco de dados relacional - As informações se relacionam entre si
        Existe primary key(chave primária) e foreign key que relacionam eles entre si.
 
-        Primary key - Não pode estar vazia e precisa ser única
+        Primary key - Não pode estar vazia/nula, precisa ser única e tem que identificar o registro
         Unique - Precisa ser único no banco de dados
         
         bdAula09 - meu banco
