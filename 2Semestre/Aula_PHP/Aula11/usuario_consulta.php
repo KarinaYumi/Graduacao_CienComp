@@ -37,6 +37,7 @@ require("config.php"); //includ - se não encontrar o arquivo, segue a vida e nn
 		<th>Data de nascimento</th>
 		<th>Senha</th>
 		<th>email</th>
+		<th>Ações</th>
 		
 	</tr>
 				
